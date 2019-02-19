@@ -2,7 +2,7 @@ This project will provide METU students to get courses that are opened according
 Just type in the code of the department you want to take courses and the program will list the courses that are appropriate for you.
 
 
-#Usage 
+###Usage 
 ------
 ```sh
 $ python3 nondep.py [departmentCode]
