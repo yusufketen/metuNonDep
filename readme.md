@@ -1,6 +1,6 @@
 # METU Non-Dep
 This project will provide METU students to get courses that are opened according to their department properly.
-Just type in the code of the department you want to take courses and the program will list the courses that are appropriate for you.
+When you type the code of the department which you prefer, program will list the courses that are appropriate for you.
 
 
 Usage 
