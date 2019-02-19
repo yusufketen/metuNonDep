@@ -2,3 +2,6 @@ This project will provide METU students to get courses that are opened according
 
 Usage 
 ------
+```sh
+$ python3 nondep.py [departmentCode]
+```
