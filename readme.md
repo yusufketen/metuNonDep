@@ -7,7 +7,7 @@ $ python3 nondep.py [departmentCode]
 ```
 ### Department Codes
 
-Department codes are related to the list order.
+Department codes are related to the list order. There are samples below.
 
 | Department | Code |
 | ------ | ------ |
