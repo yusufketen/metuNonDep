@@ -4,12 +4,13 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 import selenium.webdriver.support.expected_conditions as EC
 import selenium.webdriver.support.ui as ui
+import sys
 
 driver = webdriver.Chrome()
 
 driver.get("https://oibs2.metu.edu.tr/View_Program_Course_Details_64/main.php")
 driver.implicitly_wait(7)
-departmentCode = 178
+departmentCode = sys.argv[1]
 departmentXpath = '//*[@id="single_content"]/form/table[2]/tbody/tr[1]/td[3]/select/option[' + str(departmentCode) + ']'
 selectDepartment = driver.find_element_by_xpath(departmentXpath).click()
 driver.implicitly_wait(5)
