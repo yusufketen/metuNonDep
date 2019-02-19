@@ -52,21 +52,3 @@ for i in range(2,rowSize+1):
 			print("There is no section criteria to take the selected courses for this section.")
 	print("--------------------------------------------------------------------------------------")
 	driver.find_element_by_xpath('//*[@id="single_content"]/form/table[4]/tbody/tr/td/input').click()	
-
-
-
-		
-	
-	
-"""
-23->business adm.
-40-> ceng
-50->econ
-95-> history
-107->ir
-127 -> greek
-157->philosophy
-165->pol-sci
-167 -> psy
-178->soc
-"""
